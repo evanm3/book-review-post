@@ -1,0 +1,70 @@
+body {
+    font-family: 'Righteous', arial, 'Tangerine';
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: gray;
+    width: 100vw;
+    margin: 0px;
+    padding: 10px 60px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px 0px 0px;
+    
+}
+
+.logo-font {
+    font-size: larger;
+}
+
+.nav-right ul, a {
+    display: flex;
+    gap: 1em;
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+    padding-right: 2em;
+    flex-shrink: 0;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+}
+
+.intro-left {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    min-width: 200px;
+}
+
+.book-title {
+   margin-bottom: 0px;
+}
+
+.intro-right {
+    width: 50%;
+    padding: 20px;
+    display: flex;
+   
+}
+
+.cover-images {
+    display: flex;
+    height: 250px;
+    padding: 0px;
+    
+}
+
+.img-move-left {
+    position: relative;
+    right: 60px;
+    
+}
