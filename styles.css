@@ -58,6 +58,10 @@ header {
     text-transform: uppercase;
 }
 
+.book-details a {
+    text-decoration: underline;
+}
+
 .intro-right {
     max-width: 50%;
     padding: 20px;
@@ -160,9 +164,6 @@ main {
     color:#000000;
     text-align: center;
 }
-/* .quote-container {
-    max-width: 700px;
-} */
 
 .quote {
     display: flex;
@@ -171,7 +172,6 @@ main {
     align-items: center;
     /* max-width: 500px; */
     padding: 100px 20%;
-   
 }
 
 .quote em {
@@ -179,11 +179,51 @@ main {
     font-weight: lighter;
     text-align: center;
     letter-spacing: .15em;
-    
-
 }
 
 .quote p {
     display: flex;
     align-self: flex-end;
+}
+
+.mailing-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px dotted red; */
+}
+
+.container {
+    background-color: red;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 20%;
+    padding: 20px 50px;
+    margin-bottom: 20px;
+    color: whitesmoke;
+    border-radius: 10px;
+    letter-spacing: .1em;
+}
+
+.container-right {
+    display: flex;
+    gap: 20px;
+}
+
+input[type=submit] {
+    color: whitesmoke;
+    background-color: red;
+    font-family: 'Rock Salt', 'cursive', sans-serif;
+    border-radius: 50%;
+    border: none;
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border: 3px solid white;
+}
+input:hover {
+    cursor: pointer;
+    background-color: #85dd87;
+    color: black;
 }
